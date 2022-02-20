@@ -211,7 +211,9 @@ float precioParqueo()
       cout<<" El total a pagar es: "<<(precio*1.50)<<endl;
 	  }
 	system("PAUSE");
+	return 0;
 }
+
     
 void gotoxy(int x, int y){
 	HANDLE hcon;
